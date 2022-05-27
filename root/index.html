@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Picker</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <header>
+          <form action="#">
+            <input type="color" id="seed-color" />
+            <select name="color-scheme" id="color-scheme">
+              <option value="Monochrome">Monochrome</option>
+              <option value="Analogic">Analogic</option>
+            </select>
+            <button class="btn-primary">Get color scheme</button>
+          </form>
+        </header>
+
+        <section class="color-bars">
+          <div class="colors">
+            <div class="color1 color-bar"></div>
+            <div class="color2 color-bar"></div>
+            <div class="color3 color-bar"></div>
+            <div class="color4 color-bar"></div>
+            <div class="color5 color-bar"></div>
+          </div>
+          <div class="color-codes">
+            <p class="color-code1">#F55A5A</p>
+            <p class="color-code2">#2B283A</p>
+            <p class="color-code3">#FBF3AB</p>
+            <p class="color-code4">#AAD1B6</p>
+            <p class="color-code5">#A626D3</p>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
