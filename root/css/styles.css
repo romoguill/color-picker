@@ -56,13 +56,13 @@ form {
 }
 
 .color-bars {
-  height: 90%;
+  height: 85%;
 
 }
 
 .colors {
   display: flex;
-  height: 75%;
+  height: 90%;
 }
 
 .color-bar {
@@ -76,6 +76,7 @@ form {
 
 .color-codes {
   display: flex;
-  justify-content: space-between;
-  text-align: center;
+  justify-content: space-around;
+  height: 10%;
+  align-items: center;
 }
