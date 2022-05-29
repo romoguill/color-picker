@@ -53,6 +53,11 @@ form {
   border: 1px solid #ddd;
   background-color: transparent;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #eee;
 }
 
 .color-bars {
@@ -70,13 +75,11 @@ form {
   height: 100%;
 }
 
-.color1 {
-  background-color: #F55A5A;
-}
-
 .color-codes {
   display: flex;
   justify-content: space-around;
   height: 10%;
   align-items: center;
+  font-size: 12px;
+
 }
